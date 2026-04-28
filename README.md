@@ -61,5 +61,3 @@ This project was built with the assistance of an AI coding agent (`pi`) acting a
    python manage.py runserver
    ```
    Visit `http://127.0.0.1:8000/account/` to view the app.
-
----
