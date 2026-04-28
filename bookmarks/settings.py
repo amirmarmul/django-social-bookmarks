@@ -100,6 +100,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Custom authentication backend
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'account.authentication.EmailAuthBackend',
+]
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
@@ -129,3 +136,4 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Media files
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
