@@ -15,3 +15,7 @@ db.sqlite3-journal
 
 # Media files
 media/
+
+# Local SSL Certificates
+cert.crt
+cert.key
